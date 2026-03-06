@@ -1,6 +1,1 @@
-from django.urls import path
-from . import views
-
-urlpatterns = [
-    path('signup/', views.signup, name='signup'),
-]
+# URL routing is handled via NinjaAPI in config/urls.py
